@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <p>Hello Weather</p>
+  <header>
+    <form>
+      <label for="search">Location:</label>
+      <input type="text" placeholder="City" id="search">
+      <button>Search</button>
+      <label for="units">Temperature units:</label>
+      <select name="units" id="units">
+        <option value="Fahrenheit">Fahrenheit</option>
+        <option value="Celcius">Celcius</option>
+      </select>
+    </form>
+  </header>
+  <div class="display">
+    <div class="weather-display">
+      <h2 class="location">        
+      </h2>
+      <p class="weather">
+      </p>
+      <span class="temperature"></span>
+    </div>
+    <div class="weather-etc-display">
+      <p class="feels-like">
+      </p>
+      <p class="wind-speed">
+      </p>
+      <p class="humidity"> 
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
